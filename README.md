@@ -40,3 +40,31 @@ Instala dependências no diretório de construção para produção.
 
 `yarn swagger`
 Gera a documentação Swagger.
+
+## Testes
+
+   **Testes de Unidade:**
+
+ ```bash
+   yarn test:unit
+```
+   **Testes de Integração:**
+
+ ```bash
+   yarn test:integration
+```
+   **Testes End-to-End (E2E):**
+
+ ```bash
+   yarn test:e2e
+```
+   **Testes em Ambiente de CI:**
+
+ ```bash
+   yarn test-ci
+```
+`yarn coverage` 
+Cobertura de Testes.
+
+`yarn start` 
+Inicia o servidor usando server.js.
