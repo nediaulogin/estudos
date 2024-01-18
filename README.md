@@ -7,5 +7,12 @@
 ```
    **Instalar Dependências:**
 
-   ```bash
+ ```bash
    yarn
+```
+   **Configurar Husky:**
+   
+  ```bash
+    yarn prepare
+```
+## Scripts
